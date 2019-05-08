@@ -1,0 +1,42 @@
+PODS:
+  - ACPAnalytics (2.0.4):
+    - ACPAnalytics/iOS (= 2.0.4)
+    - ACPCore (>= 2.1.1)
+  - ACPAnalytics/iOS (2.0.4):
+    - ACPCore (>= 2.1.1)
+  - ACPCore (2.1.1):
+    - ACPCore/iOS (= 2.1.1)
+  - ACPCore/iOS (2.1.1)
+  - ACPGriffonBeta (0.0.10):
+    - ACPCore (~> 2.1.1)
+    - ACPGriffonBeta/iOS (= 0.0.10)
+  - ACPGriffonBeta/iOS (0.0.10):
+    - ACPCore (~> 2.1.1)
+  - ACPUserProfile (2.0.1):
+    - ACPCore (~> 2.0)
+    - ACPUserProfile/iOS (= 2.0.1)
+  - ACPUserProfile/iOS (2.0.1):
+    - ACPCore (~> 2.0)
+
+DEPENDENCIES:
+  - ACPAnalytics (~> 2.0)
+  - ACPCore (~> 2.0)
+  - ACPGriffonBeta
+  - ACPUserProfile (~> 2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ACPAnalytics
+    - ACPCore
+    - ACPGriffonBeta
+    - ACPUserProfile
+
+SPEC CHECKSUMS:
+  ACPAnalytics: a879a024bc91e7b1674b3de66095c4419701aff7
+  ACPCore: c8e84e0cee204364399dba968133cfa31b71e00b
+  ACPGriffonBeta: e7379bfed813676d5708e4df67777ea0a9dc5297
+  ACPUserProfile: d5141c8f5154e10e3a08124649ddaae13efd5131
+
+PODFILE CHECKSUM: 153c96bb0da856164a745e038e0c31c936f35532
+
+COCOAPODS: 1.6.1

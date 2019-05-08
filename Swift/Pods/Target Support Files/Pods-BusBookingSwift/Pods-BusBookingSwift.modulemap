@@ -1,0 +1,6 @@
+framework module Pods_BusBookingSwift {
+  umbrella header "Pods-BusBookingSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

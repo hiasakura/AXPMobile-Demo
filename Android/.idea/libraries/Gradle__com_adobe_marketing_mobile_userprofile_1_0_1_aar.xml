@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.adobe.marketing.mobile:userprofile:1.0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/userprofile-1.0.1.aar/cd4af670bf7e14f6e626fb42d9bf4efb/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/userprofile-1.0.1.aar/cd4af670bf7e14f6e626fb42d9bf4efb/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.adobe.marketing.mobile/userprofile/1.0.1/df482c9747d7e716b9dcb5ec7c84162edba40495/userprofile-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

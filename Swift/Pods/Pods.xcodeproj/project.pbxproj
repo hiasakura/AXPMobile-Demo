@@ -1,0 +1,1348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06C52E7F7555AC8E49A414C90B1732F3 /* Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD5F424F41AC0A5F8176AD19717B988 /* Empty.m */; };
+		0765B37C50C396DE6A4C3C70E8E07290 /* ACPMobileVisitorId.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CBD1D764DE34A1AE20F35F8A433DE32 /* ACPMobileVisitorId.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		076BEA781AF4EB3AF4004FCFBAACBDA6 /* ACPAnalytics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E761720495C2E458F0ECD0E4B1B6144D /* ACPAnalytics-dummy.m */; };
+		08AC97BD1C890F555726BA7BC33550AA /* ACPIdentity.h in Headers */ = {isa = PBXBuildFile; fileRef = 40DC5B5A261AD55A2CA561077FDC1044 /* ACPIdentity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FB4717B2D01C0487443C6BB6A5B83F6 /* ACPExtensionApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 894A92144B530C5BF3C6D7C13CFC778B /* ACPExtensionApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		242211D69D7269DE7FDFB2426090875E /* ACPExtensionError.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7B1ADACE57698DCFD5A65C504627CD /* ACPExtensionError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		244A0D82F8608B545F2A6B68BAE985BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2B179E41E61E68F783EF13053322B088 /* ACPCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 064079CAFE99640F432593F05A1DA993 /* ACPCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		314E5DF682B29C4184371EBC54F1870B /* ACPAnalytics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F8EFB8A4D78F4BEFC4E25EF55EBA231 /* ACPAnalytics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31A476676F04C9AA225F1759EFC5AA77 /* ACPUserProfile-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ABF736A902B4EA4B1A41E7A18E52C9F9 /* ACPUserProfile-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48A56BB689F57F8BFD3011B182E2E293 /* ACPUserProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D927CAB772604211B046C9871308877 /* ACPUserProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E07A98DEC6A5DD4995AEEF7E39D726D /* ACPUserProfile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3F5B64EBD412A68CA468D773FD1BCE /* ACPUserProfile-dummy.m */; };
+		581051D9FCEE20C05FF8108E6101F25D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6EC785B94CCB70A7438F0A833B97CBD3 /* ACPCore.h in Headers */ = {isa = PBXBuildFile; fileRef = CDADD1CF367C031D010090D67DFB692C /* ACPCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72E0E49F5256B6EF7C69F58A7CEBAD1D /* Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C63444667372DFE347D97D853D6A8B /* Empty.m */; };
+		730803B550103F278092FC91FDDF86EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8EDE813B28F18760677204BDD86C0CD7 /* ACPGriffonBeta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6A39665A03CFB45D7D9999FD243403A /* ACPGriffonBeta-dummy.m */; };
+		94D15AEEE6BAECC41E0B6E944DF37CEB /* ACPExtensionEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 26C747724C9FBDFA68CD2D9B4CF73ADC /* ACPExtensionEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		973C5451883DA842D1DE0481E198101A /* ACPCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7359955CB52EFC0956424DFB3F40B692 /* ACPCore-dummy.m */; };
+		9F1173DD4D34172B07D1C27A67075690 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AAA453F210AC60BE25E07FDB2E9317BE /* ACPGriffonBeta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD036412B34205EB23D1811130950068 /* ACPGriffonBeta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEE839D988B41F397205039531908BBF /* ACPLifecycle.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA269AE065F6AF6E54EC5C18DB29741 /* ACPLifecycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B43DE52C060F9EFF276557376A2DA901 /* ACPGriffon.h in Headers */ = {isa = PBXBuildFile; fileRef = 517B8B5D62136528C07DB534482E0899 /* ACPGriffon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD8C4068E3C1CB5938202929DA4B5543 /* Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D6C807B7D4C95DCA80A0F17AF36011 /* Empty.m */; };
+		C322A02F3257E303E3740266239923A9 /* Pods-BusBookingSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42556F490FFC6FF29E091B709F4B0FF4 /* Pods-BusBookingSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C422019FCCAA130D0FFFB1C5106D2735 /* Pods-BusBookingSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2EAF8C03D1D1A9C69863DADD7FEBDD /* Pods-BusBookingSwift-dummy.m */; };
+		C500B1F6A6A0B039C65DBEED59AAE8A1 /* Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 89CDCEAEBA0015A9EA9450E6612452E7 /* Empty.m */; };
+		D26D3522FF23228AB1CCA7E54FAAC7FA /* ACPSignal.h in Headers */ = {isa = PBXBuildFile; fileRef = BE66A75F0E63D3285ABDC44F088716B6 /* ACPSignal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC471319CFA664831840494C4F7B0DF1 /* ACPAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A54F9D3E2ED8264A8781FAA6F2DD9CB /* ACPAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1741BCE6C3FDDC6CB3E12ED06A43628 /* ACPGriffonEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B4BF6BE57F2E77D2A67B12499C1A5D4 /* ACPGriffonEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDCA3AF734DBCDE82FF44F5506466499 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FA0F887C05AF33333C7EA4EF08DF124C /* ACPExtensionListener.h in Headers */ = {isa = PBXBuildFile; fileRef = 639C87B4648E59A846B42094D96260A4 /* ACPExtensionListener.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB969BFFA52157003D4A2FF499BB4EA3 /* ACPGriffonBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 47C8F162F92784153399F87698EA7494 /* ACPGriffonBridge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD5753ABD956751A3C7E7313AB40ADD9 /* ACPExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 42241643339F4D7F8888611EF854E607 /* ACPExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		010A718913F0D2B83FE183CF809F9303 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 269D2E4EA8E2540907A5652C4294753F;
+			remoteInfo = ACPCore;
+		};
+		4018FC71FE5EC4168C22C6020FC92260 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 269D2E4EA8E2540907A5652C4294753F;
+			remoteInfo = ACPCore;
+		};
+		53E033CAD0E9909BDB221FDEC1D1A011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 269D2E4EA8E2540907A5652C4294753F;
+			remoteInfo = ACPCore;
+		};
+		9D9E200A041E9E64EB214DFC2FCA7F28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F26D1AA0A44EB864164BDD7740DE2310;
+			remoteInfo = ACPAnalytics;
+		};
+		E0F0ED207B4E44D1C2AF69101F513490 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9A7AE560696ABD32D000181169BE000;
+			remoteInfo = ACPGriffonBeta;
+		};
+		EC5E118F7C7105C9E16D205AA23605FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91C18FE6B824158C184BBEE6E9F6A195;
+			remoteInfo = ACPUserProfile;
+		};
+		F903D7CA79DA286CD8CB34B582FA5CB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 269D2E4EA8E2540907A5652C4294753F;
+			remoteInfo = ACPCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01129CFEDF88C32B9C4CCD5028DEFBB1 /* libProjectGriffon.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libProjectGriffon.a; sourceTree = "<group>"; };
+		064079CAFE99640F432593F05A1DA993 /* ACPCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ACPCore-umbrella.h"; sourceTree = "<group>"; };
+		0AD0CCFF0D159CD2075C0DB705244B29 /* Pods-BusBookingSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BusBookingSwift.release.xcconfig"; sourceTree = "<group>"; };
+		0B9988397979E5500847F6BE6FA538B7 /* ACPAnalytics-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ACPAnalytics-Info.plist"; sourceTree = "<group>"; };
+		0E74EB8D1FEA6A7D72E9ACCB7DD27827 /* ACPGriffonBeta-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ACPGriffonBeta-Info.plist"; sourceTree = "<group>"; };
+		0EDB55C4CBBEC316BAAE541299DF9921 /* ACPCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ACPCore-prefix.pch"; sourceTree = "<group>"; };
+		15C9C25553F19AD7E635DFCC4E00CE84 /* ACPAnalytics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ACPAnalytics.modulemap; sourceTree = "<group>"; };
+		167FA5F1E8122588EEDAE0C0DB349E4A /* ACPGriffonBeta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ACPGriffonBeta.xcconfig; sourceTree = "<group>"; };
+		1A18015CD6C1DB297CDADA31F618867A /* ACPUserProfile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ACPUserProfile.xcconfig; sourceTree = "<group>"; };
+		1DA775FEC3C10EA2F7C549595DDFF55E /* ACPCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ACPCore.modulemap; sourceTree = "<group>"; };
+		1F77F9A157FA429C33EEED2A15E8C90D /* libACPGriffonBridge_iOS.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libACPGriffonBridge_iOS.a; sourceTree = "<group>"; };
+		21042A025F59132EC31FB3DF8D388EAF /* Pods-BusBookingSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BusBookingSwift.modulemap"; sourceTree = "<group>"; };
+		2226BB34347E9D2E0298C3D8C5F71B81 /* libACPSignal_iOS.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libACPSignal_iOS.a; sourceTree = "<group>"; };
+		26C747724C9FBDFA68CD2D9B4CF73ADC /* ACPExtensionEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACPExtensionEvent.h; path = include/ACPExtensionEvent.h; sourceTree = "<group>"; };
+		2F8EFB8A4D78F4BEFC4E25EF55EBA231 /* ACPAnalytics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ACPAnalytics-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		329BF04400135E6656AC78944B32F603 /* ACPCore-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ACPCore-Info.plist"; sourceTree = "<group>"; };
+		36BAC22AD9F9C47BD235FAD2EF090E2D /* Pods-BusBookingSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BusBookingSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3C2EAF8C03D1D1A9C69863DADD7FEBDD /* Pods-BusBookingSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BusBookingSwift-dummy.m"; sourceTree = "<group>"; };
+		3D927CAB772604211B046C9871308877 /* ACPUserProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACPUserProfile.h; path = include/ACPUserProfile.h; sourceTree = "<group>"; };
+		40DC5B5A261AD55A2CA561077FDC1044 /* ACPIdentity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACPIdentity.h; path = include/ACPIdentity.h; sourceTree = "<group>"; };
+		42241643339F4D7F8888611EF854E607 /* ACPExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACPExtension.h; path = include/ACPExtension.h; sourceTree = "<group>"; };
+		42556F490FFC6FF29E091B709F4B0FF4 /* Pods-BusBookingSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BusBookingSwift-umbrella.h"; sourceTree = "<group>"; };
+		431496909DD957FB4F336DAC1E08EBEA /* ACPGriffonBeta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ACPGriffonBeta.framework; path = ACPGriffonBeta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C8F162F92784153399F87698EA7494 /* ACPGriffonBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACPGriffonBridge.h; path = include/ACPGriffonBridge.h; sourceTree = "<group>"; };
+		4B4BF6BE57F2E77D2A67B12499C1A5D4 /* ACPGriffonEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACPGriffonEvent.h; path = include/ACPGriffonEvent.h; sourceTree = "<group>"; };
+		4C8F8AC01F6263CC4683617FC12EEB69 /* libACPCore_iOS.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libACPCore_iOS.a; sourceTree = "<group>"; };
+		4D86861FF8546912825EFA822A900BB8 /* ACPUserProfile.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ACPUserProfile.modulemap; sourceTree = "<group>"; };
+		5027D0A9BEDF11ECA05E821B045555F1 /* ACPUserProfile-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ACPUserProfile-prefix.pch"; sourceTree = "<group>"; };
+		517B8B5D62136528C07DB534482E0899 /* ACPGriffon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACPGriffon.h; path = include/ACPGriffon.h; sourceTree = "<group>"; };
+		5A54F9D3E2ED8264A8781FAA6F2DD9CB /* ACPAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACPAnalytics.h; path = include/ACPAnalytics.h; sourceTree = "<group>"; };
+		639C87B4648E59A846B42094D96260A4 /* ACPExtensionListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACPExtensionListener.h; path = include/ACPExtensionListener.h; sourceTree = "<group>"; };
+		7359955CB52EFC0956424DFB3F40B692 /* ACPCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ACPCore-dummy.m"; sourceTree = "<group>"; };
+		7830BF7A9F0E9E0643CB0E736897F46F /* libACPIdentity_iOS.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libACPIdentity_iOS.a; sourceTree = "<group>"; };
+		7CBD1D764DE34A1AE20F35F8A433DE32 /* ACPMobileVisitorId.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACPMobileVisitorId.h; path = include/ACPMobileVisitorId.h; sourceTree = "<group>"; };
+		7D5CFF9894970D12EAFA6FEBD5F168D5 /* ACPUserProfile-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ACPUserProfile-Info.plist"; sourceTree = "<group>"; };
+		7DB3ED0DD1A856FA1188969AAC3C9829 /* libACPAnalytics_iOS.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libACPAnalytics_iOS.a; sourceTree = "<group>"; };
+		7E262733C252A055628454A035C7F5FF /* ACPUserProfile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ACPUserProfile.framework; path = ACPUserProfile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		894A92144B530C5BF3C6D7C13CFC778B /* ACPExtensionApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACPExtensionApi.h; path = include/ACPExtensionApi.h; sourceTree = "<group>"; };
+		89CDCEAEBA0015A9EA9450E6612452E7 /* Empty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Empty.m; path = include/Empty.m; sourceTree = "<group>"; };
+		8B2CB97BE74BDE89259CD770CD15FB81 /* ACPGriffonBeta.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ACPGriffonBeta.modulemap; sourceTree = "<group>"; };
+		8C3F5B64EBD412A68CA468D773FD1BCE /* ACPUserProfile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ACPUserProfile-dummy.m"; sourceTree = "<group>"; };
+		8E7B1ADACE57698DCFD5A65C504627CD /* ACPExtensionError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACPExtensionError.h; path = include/ACPExtensionError.h; sourceTree = "<group>"; };
+		940CAEB9FF7F5B1CDE36587C87471D80 /* libACPLifecycle_iOS.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libACPLifecycle_iOS.a; sourceTree = "<group>"; };
+		9C486E158026D429478C08A7730F57CD /* ACPAnalytics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ACPAnalytics-prefix.pch"; sourceTree = "<group>"; };
+		9C6308002D89319799F2EFDC46B5EB3E /* ACPAnalytics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ACPAnalytics.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D99D13D95F2017E3F043FA7D589BF66 /* ACPAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ACPAnalytics.framework; path = ACPAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0C63444667372DFE347D97D853D6A8B /* Empty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Empty.m; path = include/Empty.m; sourceTree = "<group>"; };
+		A2EE6B011F7AB7567BB6A54E40E08409 /* ACPGriffonBeta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ACPGriffonBeta-prefix.pch"; sourceTree = "<group>"; };
+		AAF0B6AB68D254A8D892314BB52DB4FF /* ACPCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ACPCore.xcconfig; sourceTree = "<group>"; };
+		ABF736A902B4EA4B1A41E7A18E52C9F9 /* ACPUserProfile-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ACPUserProfile-umbrella.h"; sourceTree = "<group>"; };
+		ADD5F424F41AC0A5F8176AD19717B988 /* Empty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Empty.m; path = include/Empty.m; sourceTree = "<group>"; };
+		B574A831D4A472652B1A1D0457910564 /* libACPUserProfile_iOS.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libACPUserProfile_iOS.a; sourceTree = "<group>"; };
+		BBA269AE065F6AF6E54EC5C18DB29741 /* ACPLifecycle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACPLifecycle.h; path = include/ACPLifecycle.h; sourceTree = "<group>"; };
+		BD58676D997F06603B4BD2372E4DFB73 /* Pods-BusBookingSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BusBookingSwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		BDE4CE04D5EDCB663B99EDE3A0216432 /* Pods_BusBookingSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BusBookingSwift.framework; path = "Pods-BusBookingSwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE66A75F0E63D3285ABDC44F088716B6 /* ACPSignal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACPSignal.h; path = include/ACPSignal.h; sourceTree = "<group>"; };
+		C00C1773D0D624E08F7C07DD22017F9B /* Pods-BusBookingSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BusBookingSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		CDADD1CF367C031D010090D67DFB692C /* ACPCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACPCore.h; path = include/ACPCore.h; sourceTree = "<group>"; };
+		DF5A5F31FC6E039C76BC0213348C5D69 /* Pods-BusBookingSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BusBookingSwift-Info.plist"; sourceTree = "<group>"; };
+		E6A39665A03CFB45D7D9999FD243403A /* ACPGriffonBeta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ACPGriffonBeta-dummy.m"; sourceTree = "<group>"; };
+		E761720495C2E458F0ECD0E4B1B6144D /* ACPAnalytics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ACPAnalytics-dummy.m"; sourceTree = "<group>"; };
+		F38E72235BAD2F59A60DCF6E7401C95A /* ACPCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ACPCore.framework; path = ACPCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D6C807B7D4C95DCA80A0F17AF36011 /* Empty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Empty.m; path = include/Empty.m; sourceTree = "<group>"; };
+		FD036412B34205EB23D1811130950068 /* ACPGriffonBeta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ACPGriffonBeta-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CF3D0D82F85FC7C5E76A217803DC781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCA3AF734DBCDE82FF44F5506466499 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6239DA1BD94A6C0FFEBA781B02011F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1173DD4D34172B07D1C27A67075690 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FEA07C3EF167DBCDBDE732BABE1B6C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244A0D82F8608B545F2A6B68BAE985BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2C20A9CB454B265D224BF27D32ED02C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730803B550103F278092FC91FDDF86EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C22B1980731A05AB1E06B8C30EA58AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				581051D9FCEE20C05FF8108E6101F25D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		027CBC7146CD6F1588585859873A629D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				517B8B5D62136528C07DB534482E0899 /* ACPGriffon.h */,
+				47C8F162F92784153399F87698EA7494 /* ACPGriffonBridge.h */,
+				4B4BF6BE57F2E77D2A67B12499C1A5D4 /* ACPGriffonEvent.h */,
+				A0C63444667372DFE347D97D853D6A8B /* Empty.m */,
+				973284D423A31DFB28D63E2784B3DA33 /* Frameworks */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0FD294C0E3AD8D954369157F3F43BC92 /* ACPUserProfile */ = {
+			isa = PBXGroup;
+			children = (
+				99369C268E3454E85C2E1E8F2CF7D011 /* iOS */,
+				ACF9096C90EA406E93F7857FB43E6E22 /* Support Files */,
+			);
+			name = ACPUserProfile;
+			path = ACPUserProfile;
+			sourceTree = "<group>";
+		};
+		1074DA10C55A923E97E86F08C5A7E925 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C8F8AC01F6263CC4683617FC12EEB69 /* libACPCore_iOS.a */,
+				7830BF7A9F0E9E0643CB0E736897F46F /* libACPIdentity_iOS.a */,
+				940CAEB9FF7F5B1CDE36587C87471D80 /* libACPLifecycle_iOS.a */,
+				2226BB34347E9D2E0298C3D8C5F71B81 /* libACPSignal_iOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		107EF38E3164EB89A523CC94804B8484 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15C9C25553F19AD7E635DFCC4E00CE84 /* ACPAnalytics.modulemap */,
+				9C6308002D89319799F2EFDC46B5EB3E /* ACPAnalytics.xcconfig */,
+				E761720495C2E458F0ECD0E4B1B6144D /* ACPAnalytics-dummy.m */,
+				0B9988397979E5500847F6BE6FA538B7 /* ACPAnalytics-Info.plist */,
+				9C486E158026D429478C08A7730F57CD /* ACPAnalytics-prefix.pch */,
+				2F8EFB8A4D78F4BEFC4E25EF55EBA231 /* ACPAnalytics-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ACPAnalytics";
+			sourceTree = "<group>";
+		};
+		1752770EFEBFF0EB0AF787F2999F1DEA /* ACPCore */ = {
+			isa = PBXGroup;
+			children = (
+				4287C384D9D698EAAE598B6DE5352BDE /* iOS */,
+				5BDF4C987F43D12445D26E31EB471C3C /* Support Files */,
+			);
+			name = ACPCore;
+			path = ACPCore;
+			sourceTree = "<group>";
+		};
+		4287C384D9D698EAAE598B6DE5352BDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CDADD1CF367C031D010090D67DFB692C /* ACPCore.h */,
+				42241643339F4D7F8888611EF854E607 /* ACPExtension.h */,
+				894A92144B530C5BF3C6D7C13CFC778B /* ACPExtensionApi.h */,
+				8E7B1ADACE57698DCFD5A65C504627CD /* ACPExtensionError.h */,
+				26C747724C9FBDFA68CD2D9B4CF73ADC /* ACPExtensionEvent.h */,
+				639C87B4648E59A846B42094D96260A4 /* ACPExtensionListener.h */,
+				40DC5B5A261AD55A2CA561077FDC1044 /* ACPIdentity.h */,
+				BBA269AE065F6AF6E54EC5C18DB29741 /* ACPLifecycle.h */,
+				7CBD1D764DE34A1AE20F35F8A433DE32 /* ACPMobileVisitorId.h */,
+				BE66A75F0E63D3285ABDC44F088716B6 /* ACPSignal.h */,
+				89CDCEAEBA0015A9EA9450E6612452E7 /* Empty.m */,
+				1074DA10C55A923E97E86F08C5A7E925 /* Frameworks */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A68A6D6CFEC105998479EE6A5B15B31 /* ACPAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				FABB47491B938BA394F6517FD8524099 /* iOS */,
+				107EF38E3164EB89A523CC94804B8484 /* Support Files */,
+			);
+			name = ACPAnalytics;
+			path = ACPAnalytics;
+			sourceTree = "<group>";
+		};
+		5BDF4C987F43D12445D26E31EB471C3C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DA775FEC3C10EA2F7C549595DDFF55E /* ACPCore.modulemap */,
+				AAF0B6AB68D254A8D892314BB52DB4FF /* ACPCore.xcconfig */,
+				7359955CB52EFC0956424DFB3F40B692 /* ACPCore-dummy.m */,
+				329BF04400135E6656AC78944B32F603 /* ACPCore-Info.plist */,
+				0EDB55C4CBBEC316BAAE541299DF9921 /* ACPCore-prefix.pch */,
+				064079CAFE99640F432593F05A1DA993 /* ACPCore-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ACPCore";
+			sourceTree = "<group>";
+		};
+		973284D423A31DFB28D63E2784B3DA33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F77F9A157FA429C33EEED2A15E8C90D /* libACPGriffonBridge_iOS.a */,
+				01129CFEDF88C32B9C4CCD5028DEFBB1 /* libProjectGriffon.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99369C268E3454E85C2E1E8F2CF7D011 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3D927CAB772604211B046C9871308877 /* ACPUserProfile.h */,
+				F9D6C807B7D4C95DCA80A0F17AF36011 /* Empty.m */,
+				9EC40552A84C3D2FBC93D1711243BD40 /* Frameworks */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9EC40552A84C3D2FBC93D1711243BD40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B574A831D4A472652B1A1D0457910564 /* libACPUserProfile_iOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2294EA7C0749A82A8CE0D89D988FCDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A68A6D6CFEC105998479EE6A5B15B31 /* ACPAnalytics */,
+				1752770EFEBFF0EB0AF787F2999F1DEA /* ACPCore */,
+				D4FBA6B46FDC1F80816FA89D3A1D991C /* ACPGriffonBeta */,
+				0FD294C0E3AD8D954369157F3F43BC92 /* ACPUserProfile */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A56909865C6BDAC357EF1349B4DC31A0 /* Pods-BusBookingSwift */ = {
+			isa = PBXGroup;
+			children = (
+				21042A025F59132EC31FB3DF8D388EAF /* Pods-BusBookingSwift.modulemap */,
+				36BAC22AD9F9C47BD235FAD2EF090E2D /* Pods-BusBookingSwift-acknowledgements.markdown */,
+				BD58676D997F06603B4BD2372E4DFB73 /* Pods-BusBookingSwift-acknowledgements.plist */,
+				3C2EAF8C03D1D1A9C69863DADD7FEBDD /* Pods-BusBookingSwift-dummy.m */,
+				DF5A5F31FC6E039C76BC0213348C5D69 /* Pods-BusBookingSwift-Info.plist */,
+				42556F490FFC6FF29E091B709F4B0FF4 /* Pods-BusBookingSwift-umbrella.h */,
+				C00C1773D0D624E08F7C07DD22017F9B /* Pods-BusBookingSwift.debug.xcconfig */,
+				0AD0CCFF0D159CD2075C0DB705244B29 /* Pods-BusBookingSwift.release.xcconfig */,
+			);
+			name = "Pods-BusBookingSwift";
+			path = "Target Support Files/Pods-BusBookingSwift";
+			sourceTree = "<group>";
+		};
+		ACF9096C90EA406E93F7857FB43E6E22 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D86861FF8546912825EFA822A900BB8 /* ACPUserProfile.modulemap */,
+				1A18015CD6C1DB297CDADA31F618867A /* ACPUserProfile.xcconfig */,
+				8C3F5B64EBD412A68CA468D773FD1BCE /* ACPUserProfile-dummy.m */,
+				7D5CFF9894970D12EAFA6FEBD5F168D5 /* ACPUserProfile-Info.plist */,
+				5027D0A9BEDF11ECA05E821B045555F1 /* ACPUserProfile-prefix.pch */,
+				ABF736A902B4EA4B1A41E7A18E52C9F9 /* ACPUserProfile-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ACPUserProfile";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A2294EA7C0749A82A8CE0D89D988FCDA /* Pods */,
+				F0D8FDB16D46DAF982A1DAA24857204B /* Products */,
+				D464B97F700B65A778281BE0F29BBB02 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D11A8320B12BF7CEECEEAE91C21F8C50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DB3ED0DD1A856FA1188969AAC3C9829 /* libACPAnalytics_iOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D464B97F700B65A778281BE0F29BBB02 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A56909865C6BDAC357EF1349B4DC31A0 /* Pods-BusBookingSwift */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D4FBA6B46FDC1F80816FA89D3A1D991C /* ACPGriffonBeta */ = {
+			isa = PBXGroup;
+			children = (
+				027CBC7146CD6F1588585859873A629D /* iOS */,
+				DF654F613DF00CCF1EC8B2E5C15D5604 /* Support Files */,
+			);
+			name = ACPGriffonBeta;
+			path = ACPGriffonBeta;
+			sourceTree = "<group>";
+		};
+		DF654F613DF00CCF1EC8B2E5C15D5604 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B2CB97BE74BDE89259CD770CD15FB81 /* ACPGriffonBeta.modulemap */,
+				167FA5F1E8122588EEDAE0C0DB349E4A /* ACPGriffonBeta.xcconfig */,
+				E6A39665A03CFB45D7D9999FD243403A /* ACPGriffonBeta-dummy.m */,
+				0E74EB8D1FEA6A7D72E9ACCB7DD27827 /* ACPGriffonBeta-Info.plist */,
+				A2EE6B011F7AB7567BB6A54E40E08409 /* ACPGriffonBeta-prefix.pch */,
+				FD036412B34205EB23D1811130950068 /* ACPGriffonBeta-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ACPGriffonBeta";
+			sourceTree = "<group>";
+		};
+		F0D8FDB16D46DAF982A1DAA24857204B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D99D13D95F2017E3F043FA7D589BF66 /* ACPAnalytics.framework */,
+				F38E72235BAD2F59A60DCF6E7401C95A /* ACPCore.framework */,
+				431496909DD957FB4F336DAC1E08EBEA /* ACPGriffonBeta.framework */,
+				7E262733C252A055628454A035C7F5FF /* ACPUserProfile.framework */,
+				BDE4CE04D5EDCB663B99EDE3A0216432 /* Pods_BusBookingSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FABB47491B938BA394F6517FD8524099 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A54F9D3E2ED8264A8781FAA6F2DD9CB /* ACPAnalytics.h */,
+				ADD5F424F41AC0A5F8176AD19717B988 /* Empty.m */,
+				D11A8320B12BF7CEECEEAE91C21F8C50 /* Frameworks */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12C4E2929A882B596DB9718ADB6AA659 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B179E41E61E68F783EF13053322B088 /* ACPCore-umbrella.h in Headers */,
+				6EC785B94CCB70A7438F0A833B97CBD3 /* ACPCore.h in Headers */,
+				FD5753ABD956751A3C7E7313AB40ADD9 /* ACPExtension.h in Headers */,
+				1FB4717B2D01C0487443C6BB6A5B83F6 /* ACPExtensionApi.h in Headers */,
+				242211D69D7269DE7FDFB2426090875E /* ACPExtensionError.h in Headers */,
+				94D15AEEE6BAECC41E0B6E944DF37CEB /* ACPExtensionEvent.h in Headers */,
+				FA0F887C05AF33333C7EA4EF08DF124C /* ACPExtensionListener.h in Headers */,
+				08AC97BD1C890F555726BA7BC33550AA /* ACPIdentity.h in Headers */,
+				AEE839D988B41F397205039531908BBF /* ACPLifecycle.h in Headers */,
+				0765B37C50C396DE6A4C3C70E8E07290 /* ACPMobileVisitorId.h in Headers */,
+				D26D3522FF23228AB1CCA7E54FAAC7FA /* ACPSignal.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		415616D2C837E46A499C874569E5CF9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314E5DF682B29C4184371EBC54F1870B /* ACPAnalytics-umbrella.h in Headers */,
+				DC471319CFA664831840494C4F7B0DF1 /* ACPAnalytics.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		685D32A3C24454547F4F61F695C6DE79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43DE52C060F9EFF276557376A2DA901 /* ACPGriffon.h in Headers */,
+				AAA453F210AC60BE25E07FDB2E9317BE /* ACPGriffonBeta-umbrella.h in Headers */,
+				FB969BFFA52157003D4A2FF499BB4EA3 /* ACPGriffonBridge.h in Headers */,
+				E1741BCE6C3FDDC6CB3E12ED06A43628 /* ACPGriffonEvent.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B63DB1F656FA3A80FB92A069454471C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31A476676F04C9AA225F1759EFC5AA77 /* ACPUserProfile-umbrella.h in Headers */,
+				48A56BB689F57F8BFD3011B182E2E293 /* ACPUserProfile.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE92B8CB88D5B260EF47687FAFA532FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C322A02F3257E303E3740266239923A9 /* Pods-BusBookingSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		269D2E4EA8E2540907A5652C4294753F /* ACPCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7CC4C44A64B69413D9C665E99614AE3 /* Build configuration list for PBXNativeTarget "ACPCore" */;
+			buildPhases = (
+				12C4E2929A882B596DB9718ADB6AA659 /* Headers */,
+				E1E9D231D851803DB1E08B7A455A1A4F /* Sources */,
+				6239DA1BD94A6C0FFEBA781B02011F13 /* Frameworks */,
+				A013E22961428A0C74479ED75A3164FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACPCore;
+			productName = ACPCore;
+			productReference = F38E72235BAD2F59A60DCF6E7401C95A /* ACPCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		599895994FF7A18280948194844E83DE /* Pods-BusBookingSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F5DDC9A002E53E7601578104FE643EB /* Build configuration list for PBXNativeTarget "Pods-BusBookingSwift" */;
+			buildPhases = (
+				FE92B8CB88D5B260EF47687FAFA532FD /* Headers */,
+				7306A3B1B8701B2A01E90D469A334E40 /* Sources */,
+				A2C20A9CB454B265D224BF27D32ED02C /* Frameworks */,
+				A3915EC3F7A7E5B896B396C0D8F02A51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2994E9B11FD6835CB4CAEC9B7C4D6D4 /* PBXTargetDependency */,
+				A6C8FE53015E3E5BBAEB6921A790C528 /* PBXTargetDependency */,
+				51DE7A34BCE08EB2EF5339B57849EE99 /* PBXTargetDependency */,
+				786186F2DDE5A364280B6F645E962BC9 /* PBXTargetDependency */,
+			);
+			name = "Pods-BusBookingSwift";
+			productName = "Pods-BusBookingSwift";
+			productReference = BDE4CE04D5EDCB663B99EDE3A0216432 /* Pods_BusBookingSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91C18FE6B824158C184BBEE6E9F6A195 /* ACPUserProfile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB3C6EEC455A8006F2E8CC7D408DB9B /* Build configuration list for PBXNativeTarget "ACPUserProfile" */;
+			buildPhases = (
+				8B63DB1F656FA3A80FB92A069454471C /* Headers */,
+				44EF03939BB5C41AAB286B324CBFED49 /* Sources */,
+				7FEA07C3EF167DBCDBDE732BABE1B6C6 /* Frameworks */,
+				9444AEFE05D37D4F555FEB8DE480E73D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D1CC6A79B68C0CA2B29772128B9D3DF5 /* PBXTargetDependency */,
+			);
+			name = ACPUserProfile;
+			productName = ACPUserProfile;
+			productReference = 7E262733C252A055628454A035C7F5FF /* ACPUserProfile.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9A7AE560696ABD32D000181169BE000 /* ACPGriffonBeta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68EDC602402E9D1D819BECF5BDF05F71 /* Build configuration list for PBXNativeTarget "ACPGriffonBeta" */;
+			buildPhases = (
+				685D32A3C24454547F4F61F695C6DE79 /* Headers */,
+				7A22B916853DD6F07C66F698AF58324F /* Sources */,
+				2CF3D0D82F85FC7C5E76A217803DC781 /* Frameworks */,
+				E7A8270B002C2D68B25250383104BCD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4F9E6806F4E099C04E21658DBF979C9 /* PBXTargetDependency */,
+			);
+			name = ACPGriffonBeta;
+			productName = ACPGriffonBeta;
+			productReference = 431496909DD957FB4F336DAC1E08EBEA /* ACPGriffonBeta.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F26D1AA0A44EB864164BDD7740DE2310 /* ACPAnalytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D08242824491DD2DB0B3D262FAA69FE2 /* Build configuration list for PBXNativeTarget "ACPAnalytics" */;
+			buildPhases = (
+				415616D2C837E46A499C874569E5CF9A /* Headers */,
+				7122E5AF9948EC4CF93AF9FC18853D7A /* Sources */,
+				C22B1980731A05AB1E06B8C30EA58AB9 /* Frameworks */,
+				AC6659CCA38B0D430086DA1E5DCBD692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8558113436644AA1175B1A9B32B043F /* PBXTargetDependency */,
+			);
+			name = ACPAnalytics;
+			productName = ACPAnalytics;
+			productReference = 9D99D13D95F2017E3F043FA7D589BF66 /* ACPAnalytics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F0D8FDB16D46DAF982A1DAA24857204B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F26D1AA0A44EB864164BDD7740DE2310 /* ACPAnalytics */,
+				269D2E4EA8E2540907A5652C4294753F /* ACPCore */,
+				D9A7AE560696ABD32D000181169BE000 /* ACPGriffonBeta */,
+				91C18FE6B824158C184BBEE6E9F6A195 /* ACPUserProfile */,
+				599895994FF7A18280948194844E83DE /* Pods-BusBookingSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9444AEFE05D37D4F555FEB8DE480E73D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A013E22961428A0C74479ED75A3164FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3915EC3F7A7E5B896B396C0D8F02A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC6659CCA38B0D430086DA1E5DCBD692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7A8270B002C2D68B25250383104BCD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44EF03939BB5C41AAB286B324CBFED49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E07A98DEC6A5DD4995AEEF7E39D726D /* ACPUserProfile-dummy.m in Sources */,
+				BD8C4068E3C1CB5938202929DA4B5543 /* Empty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7122E5AF9948EC4CF93AF9FC18853D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076BEA781AF4EB3AF4004FCFBAACBDA6 /* ACPAnalytics-dummy.m in Sources */,
+				06C52E7F7555AC8E49A414C90B1732F3 /* Empty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7306A3B1B8701B2A01E90D469A334E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C422019FCCAA130D0FFFB1C5106D2735 /* Pods-BusBookingSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A22B916853DD6F07C66F698AF58324F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDE813B28F18760677204BDD86C0CD7 /* ACPGriffonBeta-dummy.m in Sources */,
+				72E0E49F5256B6EF7C69F58A7CEBAD1D /* Empty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E9D231D851803DB1E08B7A455A1A4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973C5451883DA842D1DE0481E198101A /* ACPCore-dummy.m in Sources */,
+				C500B1F6A6A0B039C65DBEED59AAE8A1 /* Empty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51DE7A34BCE08EB2EF5339B57849EE99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ACPGriffonBeta;
+			target = D9A7AE560696ABD32D000181169BE000 /* ACPGriffonBeta */;
+			targetProxy = E0F0ED207B4E44D1C2AF69101F513490 /* PBXContainerItemProxy */;
+		};
+		786186F2DDE5A364280B6F645E962BC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ACPUserProfile;
+			target = 91C18FE6B824158C184BBEE6E9F6A195 /* ACPUserProfile */;
+			targetProxy = EC5E118F7C7105C9E16D205AA23605FB /* PBXContainerItemProxy */;
+		};
+		A2994E9B11FD6835CB4CAEC9B7C4D6D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ACPAnalytics;
+			target = F26D1AA0A44EB864164BDD7740DE2310 /* ACPAnalytics */;
+			targetProxy = 9D9E200A041E9E64EB214DFC2FCA7F28 /* PBXContainerItemProxy */;
+		};
+		A6C8FE53015E3E5BBAEB6921A790C528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ACPCore;
+			target = 269D2E4EA8E2540907A5652C4294753F /* ACPCore */;
+			targetProxy = 53E033CAD0E9909BDB221FDEC1D1A011 /* PBXContainerItemProxy */;
+		};
+		A8558113436644AA1175B1A9B32B043F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ACPCore;
+			target = 269D2E4EA8E2540907A5652C4294753F /* ACPCore */;
+			targetProxy = 4018FC71FE5EC4168C22C6020FC92260 /* PBXContainerItemProxy */;
+		};
+		D1CC6A79B68C0CA2B29772128B9D3DF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ACPCore;
+			target = 269D2E4EA8E2540907A5652C4294753F /* ACPCore */;
+			targetProxy = 010A718913F0D2B83FE183CF809F9303 /* PBXContainerItemProxy */;
+		};
+		E4F9E6806F4E099C04E21658DBF979C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ACPCore;
+			target = 269D2E4EA8E2540907A5652C4294753F /* ACPCore */;
+			targetProxy = F903D7CA79DA286CD8CB34B582FA5CB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		148DFAED23266327A97073C00F4500DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C00C1773D0D624E08F7C07DD22017F9B /* Pods-BusBookingSwift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BusBookingSwift/Pods-BusBookingSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BusBookingSwift/Pods-BusBookingSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B1F13D49B97FF90469FE040925F8D8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		67BBE9676D9BE6B8580810F3F2476F3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A18015CD6C1DB297CDADA31F618867A /* ACPUserProfile.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ACPUserProfile/ACPUserProfile-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ACPUserProfile/ACPUserProfile-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/ACPUserProfile/ACPUserProfile.modulemap";
+				PRODUCT_MODULE_NAME = ACPUserProfile;
+				PRODUCT_NAME = ACPUserProfile;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C09D69B1897DCA6606A57A9703DA74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 167FA5F1E8122588EEDAE0C0DB349E4A /* ACPGriffonBeta.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ACPGriffonBeta/ACPGriffonBeta-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ACPGriffonBeta/ACPGriffonBeta-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/ACPGriffonBeta/ACPGriffonBeta.modulemap";
+				PRODUCT_MODULE_NAME = ACPGriffonBeta;
+				PRODUCT_NAME = ACPGriffonBeta;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A2BA49E6F366961C1F6833C4B6E80DEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAF0B6AB68D254A8D892314BB52DB4FF /* ACPCore.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ACPCore/ACPCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ACPCore/ACPCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/ACPCore/ACPCore.modulemap";
+				PRODUCT_MODULE_NAME = ACPCore;
+				PRODUCT_NAME = ACPCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A8EFA68AC855A5B2B43BF716E27BD98D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ABE45E13BC7ADF3FE4C273E50A8341B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAF0B6AB68D254A8D892314BB52DB4FF /* ACPCore.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ACPCore/ACPCore-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ACPCore/ACPCore-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/ACPCore/ACPCore.modulemap";
+				PRODUCT_MODULE_NAME = ACPCore;
+				PRODUCT_NAME = ACPCore;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0887575DCB2C2525624D7E529CA3EFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A18015CD6C1DB297CDADA31F618867A /* ACPUserProfile.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ACPUserProfile/ACPUserProfile-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ACPUserProfile/ACPUserProfile-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/ACPUserProfile/ACPUserProfile.modulemap";
+				PRODUCT_MODULE_NAME = ACPUserProfile;
+				PRODUCT_NAME = ACPUserProfile;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED7992979BCB194BC573B41F85E86273 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C6308002D89319799F2EFDC46B5EB3E /* ACPAnalytics.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ACPAnalytics/ACPAnalytics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ACPAnalytics/ACPAnalytics-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/ACPAnalytics/ACPAnalytics.modulemap";
+				PRODUCT_MODULE_NAME = ACPAnalytics;
+				PRODUCT_NAME = ACPAnalytics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F76C80723F819F1A9941C348548870DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 167FA5F1E8122588EEDAE0C0DB349E4A /* ACPGriffonBeta.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ACPGriffonBeta/ACPGriffonBeta-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ACPGriffonBeta/ACPGriffonBeta-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/ACPGriffonBeta/ACPGriffonBeta.modulemap";
+				PRODUCT_MODULE_NAME = ACPGriffonBeta;
+				PRODUCT_NAME = ACPGriffonBeta;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FCA6574D23612382C69EF741560EAED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AD0CCFF0D159CD2075C0DB705244B29 /* Pods-BusBookingSwift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BusBookingSwift/Pods-BusBookingSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BusBookingSwift/Pods-BusBookingSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD1E87403473125DD03FB838827B3DCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C6308002D89319799F2EFDC46B5EB3E /* ACPAnalytics.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ACPAnalytics/ACPAnalytics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ACPAnalytics/ACPAnalytics-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/ACPAnalytics/ACPAnalytics.modulemap";
+				PRODUCT_MODULE_NAME = ACPAnalytics;
+				PRODUCT_NAME = ACPAnalytics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8EFA68AC855A5B2B43BF716E27BD98D /* Debug */,
+				4B1F13D49B97FF90469FE040925F8D8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68EDC602402E9D1D819BECF5BDF05F71 /* Build configuration list for PBXNativeTarget "ACPGriffonBeta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76C80723F819F1A9941C348548870DB /* Debug */,
+				6C09D69B1897DCA6606A57A9703DA74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F5DDC9A002E53E7601578104FE643EB /* Build configuration list for PBXNativeTarget "Pods-BusBookingSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				148DFAED23266327A97073C00F4500DF /* Debug */,
+				FCA6574D23612382C69EF741560EAED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7CC4C44A64B69413D9C665E99614AE3 /* Build configuration list for PBXNativeTarget "ACPCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2BA49E6F366961C1F6833C4B6E80DEC /* Debug */,
+				ABE45E13BC7ADF3FE4C273E50A8341B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D08242824491DD2DB0B3D262FAA69FE2 /* Build configuration list for PBXNativeTarget "ACPAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7992979BCB194BC573B41F85E86273 /* Debug */,
+				FD1E87403473125DD03FB838827B3DCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB3C6EEC455A8006F2E8CC7D408DB9B /* Build configuration list for PBXNativeTarget "ACPUserProfile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67BBE9676D9BE6B8580810F3F2476F3E /* Debug */,
+				D0887575DCB2C2525624D7E529CA3EFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
